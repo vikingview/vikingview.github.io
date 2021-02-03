@@ -90,14 +90,22 @@ h4 {
 a.card-bottom {
   color: black;
   text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
   border-style: none;
 }
+
 
 a.card {
   color: black;
   text-decoration: none;
   border-style: none;
   transition: transform .2s;
+}
+
+.blogBox a.card {
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 a.card:hover {
@@ -395,6 +403,45 @@ a.OMG-NO-LINK-STYLING {
     font-size:.8rem;
   }
 }
+
+.load.btn-white {
+  font-family: 'Noto-Serif-Display-ExtraCondensed-Medium', sans-serif;
+  font-weight: 200;
+  font-size: 100%;
+  color: white;
+  background-color: #DEB249;
+  border-color: none;
+}
+
+.load.btn-white:hover {
+  color: #DEB249;
+  background-color: transparent;
+  border-color: #DEB249;
+}
+
+.btn-white:focus, .btn-white.focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#loadMore {
+    text-align: center;
+    width: 100%;
+}
+/* #loadMore a {
+    background: #DEB249;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+}
+#loadMore a:hover {
+    background-color: white;
+    color:#DEB249;
+} */
 
 @media (min-width:992px) and (max-width:1200px) {
     .faqs h1 {
