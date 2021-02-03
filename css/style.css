@@ -96,6 +96,8 @@ a.card {
 
 a.card:hover {
   transform: scale(1.1);
+  text-decoration:none;
+  border-style:none !important;
 }
 
 .article-title {
